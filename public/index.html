@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather App" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3a10b4190b.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Weather PWA" />
+    <meta name="theme-color" content="#3E468B" />
+    <link rel="apple-touch-icon" href="/images/icon-152x152.png" />
+
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <form action="" id="form" class="form">
+      <label>Country</label>
+      <input type="text" placeholder="Country" id="country" />
+      <button class="btn">Submit</button>
+    </form>
+
+    <div class="output"></div>
+    <script src="server.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
