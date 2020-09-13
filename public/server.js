@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div class="head">
       <div class="heads">
         <p>
-          34
+        ${task.main.temp}
           <img
             src="./images/degree9.png"
             alt=""
@@ -73,7 +73,8 @@ function addDom(datas) {
         <div class="head">
           <div class="heads">
             <p>
-              34
+                     ${data.main.temp}
+
               <img
                 src="./images/degree9.png"
                 alt=""
